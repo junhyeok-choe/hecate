@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hecate: public information for a personal Google Drive integration using rclone.">
-  <title>Hecate — Personal application integrations</title>
+  <meta name="description" content="Hecate documents application integrations, including rclone access to Google Drive.">
+  <title>Hecate — Application integrations</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,34 +18,16 @@
   </header>
   <main>
     <section class="hero">
-      <p class="eyebrow">Personal application integration</p>
-      <h1>A defined boundary for personal integrations.</h1>
-      <p class="lede">Hecate documents the boundaries and data-access practices of independently operated integrations. Its current use case is a personal <a href="https://rclone.org/drive/">rclone</a> connection to Google Drive.</p>
-      <div class="notice"><strong>Informational site only.</strong> This website does not authenticate with Google, proxy Google Drive requests, receive OAuth tokens, or handle Drive files. Authorization occurs between the local rclone client and Google.</div>
+      <p class="eyebrow">Application integrations</p>
+      <h1>Hecate</h1>
+      <p class="lede">Configuration and documentation for connections between local tools and cloud services.</p>
     </section>
     <section class="section" aria-labelledby="integration-title">
-      <h2 id="integration-title">Current integration: Google Drive via rclone</h2>
-      <div class="cards">
-        <article class="card">
-          <h3>Purpose</h3>
-          <p>Mount and manage files in a Google Drive account from an operator-controlled device. The client may list, read, upload, rename, move, and delete files as explicitly requested by the operator.</p>
-        </article>
-        <article class="card">
-          <h3>Access</h3>
-          <p>The Google Drive full-access OAuth scope can authorize broad access to accessible Drive files. A configured rclone root folder narrows its working view; it is not an OAuth permission boundary.</p>
-        </article>
-        <article class="card">
-          <h3>Data handling</h3>
-          <p>OAuth credentials and caches are handled by the local rclone installation. No Drive content or OAuth credentials are submitted to this GitHub Pages site.</p>
-        </article>
-      </div>
-    </section>
-    <section class="section" aria-labelledby="scope-title">
-      <h2 id="scope-title">Scope and status</h2>
-      <p>This is a personal-use integration, not a hosted cloud-storage product or a public OAuth service. Future connectors, agents, or MCP integrations are not represented as active features here.</p>
-      <p>Review the <a href="privacy.html">privacy policy</a> for the current data-access boundaries, and consult <a href="https://rclone.org/drive/#making-your-own-client-id">rclone's official OAuth setup instructions</a> for configuration.</p>
+      <h2 id="integration-title">Google Drive via rclone</h2>
+      <p>Use <a href="https://rclone.org/drive/">rclone</a> to mount Google Drive and manage files on your device. Access is authorized through Google OAuth.</p>
+      <p><a href="https://github.com/junhyeok-choe/hecate/blob/main/docs/rclone-google-drive.md">Setup guide</a> · <a href="privacy.html">Privacy policy</a></p>
     </section>
   </main>
-  <footer>Hecate · Personal-use integration documentation · <a href="privacy.html">Privacy</a> · <a href="https://github.com/junhyeok-choe/hecate">Source</a></footer>
+  <footer>Hecate · <a href="privacy.html">Privacy</a> · <a href="https://github.com/junhyeok-choe/hecate">GitHub</a></footer>
 </body>
 </html>
