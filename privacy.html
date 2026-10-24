@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Hecate privacy policy for the personal rclone Google Drive integration.">
+  <meta name="description" content="Privacy policy for Hecate's personal rclone Google Drive integration.">
   <title>Privacy — Hecate</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,22 +17,25 @@
     </nav>
   </header>
   <main class="prose">
-    <p class="eyebrow">Data practices · Updated 2026-10-24</p>
+    <p class="eyebrow">Updated 2026-10-24</p>
     <h1>Privacy policy</h1>
-    <p>This policy describes the current personal Google Drive integration configured with rclone and the informational Hecate website. It does not cover hypothetical future services.</p>
-    <h2>Google account access</h2>
-    <p>The operator may authorize a local rclone application to access Google Drive. Depending on the OAuth scopes actually granted, rclone can list files and metadata, download content, create and upload content, rename or move files, and delete files. Full Drive access is not restricted to a single folder by the rclone <code>root_folder_id</code> setting.</p>
-    <h2>Purpose and use</h2>
-    <p>Drive access is used for personal file management and mounting through rclone at the direction of the account holder. It is not used to sell personal information, target advertising, or train AI models as part of this website.</p>
-    <h2>Storage and transfers</h2>
-    <p>With this configuration, Google OAuth tokens are retained in the operator's local rclone configuration. Files and cache data may be kept on the operator's device according to rclone settings. rclone communicates with Google APIs to carry out file operations. The Hecate website neither receives tokens nor processes Google Drive file contents.</p>
-    <h2>Third-party hosting</h2>
-    <p>This informational website is hosted on GitHub Pages. GitHub may process ordinary website request information under its own policies. This site does not contain forms, analytics scripts, or Drive API client-side requests.</p>
-    <h2>Control and revocation</h2>
-    <p>Account holders can revoke access from their <a href="https://myaccount.google.com/connections">Google Account connections</a> settings. Local OAuth tokens and cached content are managed through the local rclone configuration and cache settings. Revoking Google access does not itself delete local copies.</p>
-    <h2>Changes and contact</h2>
-    <p>The documentation will need to be revised before expanding data processing to a hosted service, AI agent, MCP connector, or additional users. Project information and its maintainer are available on <a href="https://github.com/junhyeok-choe/hecate">GitHub</a>.</p>
+    <p>This policy covers Hecate's website and its personal Google Drive connection through rclone.</p>
+
+    <h2>Google Drive access</h2>
+    <p>With authorization, rclone can view, download, upload, rename, move, and delete Drive files, depending on the permissions granted. The full Drive scope covers all files accessible to the account. A folder setting in rclone limits its working view, not its Google permissions.</p>
+
+    <h2>Use and storage</h2>
+    <p>The connection is used to mount and manage Google Drive files at the account holder's request. rclone stores OAuth tokens in its local configuration and may cache files on the device. File operations communicate with Google Drive. This website does not receive Drive files or OAuth credentials.</p>
+
+    <h2>Website hosting</h2>
+    <p>This site is hosted on GitHub Pages and uses no contact forms or analytics scripts. GitHub may process standard website access information under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.</p>
+
+    <h2>Revoking access</h2>
+    <p>Google Drive access can be revoked in <a href="https://myaccount.google.com/connections">Google Account settings</a>. Locally stored tokens and cached files can be removed separately; revoking access does not delete local copies.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this policy, use the <a href="https://github.com/junhyeok-choe/hecate/issues">Hecate GitHub repository</a>.</p>
   </main>
-  <footer>Hecate · <a href="./">Home</a> · <a href="https://github.com/junhyeok-choe/hecate">Source</a></footer>
+  <footer>Hecate · <a href="./">Home</a> · <a href="https://github.com/junhyeok-choe/hecate">GitHub</a></footer>
 </body>
 </html>
