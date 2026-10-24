@@ -9,7 +9,7 @@ Personal Google Drive access from a local rclone client.
 3. Choose the OAuth scopes required by the rclone remote. File management uses `drive`; `drive.file` does not grant access to every existing file.
 4. Add your Google account as a test user while the app is in **Testing**, then enter the client ID and secret in `rclone config`.
 5. For ongoing use, change the app's audience status to **In production**. Testing-mode refresh tokens for Drive scopes generally expire after seven days. Publishing an app is distinct from Google's verification process.
-6. If publishing requires public app links, register the [homepage](https://junhyeok-choe.github.io/hecate/) and [privacy policy](https://junhyeok-choe.github.io/hecate/privacy.html) in **Branding**.
+6. If publishing requires public app links, register the [homepage](https://hecate.kibisis.app/) and [privacy policy](https://hecate.kibisis.app/privacy.html) in **Branding**. The authorized domain is `kibisis.app`.
 
 ## Permissions
 
@@ -17,7 +17,7 @@ The `drive` scope grants broad access to the account's accessible Drive files. T
 
 ## Website
 
-The site is built with Jekyll and deployed through [GitHub Actions](../.github/workflows/pages.yml). In **Settings → Pages**, use **GitHub Actions** as the deployment source.
+The site is built with Jekyll and deployed through [GitHub Actions](../.github/workflows/pages.yml). In **Settings → Pages**, use **GitHub Actions** as the deployment source and set the custom domain to `hecate.kibisis.app`. The Cloudflare `hecate` CNAME points to `junhyeok-choe.github.io`.
 
 ## Credentials
 

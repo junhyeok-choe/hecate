@@ -1,7 +1,7 @@
 title: Hecate
 description: Personal application integration documentation
-url: "https://junhyeok-choe.github.io"
-baseurl: "/hecate"
+url: "https://hecate.kibisis.app"
+baseurl: ""
 markdown: kramdown
 exclude:
   - README.md

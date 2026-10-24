@@ -6,13 +6,13 @@ Documentation for application integrations.
 
 Hecate documents a personal Google Drive connection through [rclone](https://rclone.org/drive/).
 
-- [Website](https://junhyeok-choe.github.io/hecate/)
-- [Privacy policy](https://junhyeok-choe.github.io/hecate/privacy.html)
+- [Website](https://hecate.kibisis.app/)
+- [Privacy policy](https://hecate.kibisis.app/privacy.html)
 - [rclone setup](docs/rclone-google-drive.md)
 
 ## Website deployment
 
-GitHub Pages uses Jekyll and the [Pages workflow](.github/workflows/pages.yml). The repository's Pages source is **GitHub Actions**.
+GitHub Pages uses Jekyll and the [Pages workflow](.github/workflows/pages.yml). The repository's Pages source is **GitHub Actions**. The custom domain is `hecate.kibisis.app` and DNS is managed through Cloudflare.
 
 ## Security
 
